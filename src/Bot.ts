@@ -19,7 +19,7 @@ setTimeout(startUpdateActivity, 3000);
 function startUpdateActivity() {
   setTimeout(
     updateActivity,
-    1000 * 60 - (new Date().getMilliseconds() + new Date().getSeconds())
+    1000 * 60 - (new Date().getMilliseconds() + new Date().getSeconds() * 1000)
   );
 }
 
