@@ -35,7 +35,7 @@ async function updateActivity() {
 }
 
 function formatDate() {
-  var offset = -9;
+  var offset = -8;
   const d = new Date(new Date().getTime() + offset * 3600 * 1000);
   return `${formatNumber(d.getHours())}:${formatNumber(
     d.getMinutes()
