@@ -1,0 +1,1 @@
+sudo screen -AmdS clock-bot npm run start
